@@ -1,0 +1,24 @@
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    border-bottom: 3px solid black;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.header-nav li {
+    cursor: pointer;
+    list-style: none;
+    border: 1px solid gray;
+    padding: 12px;
+    color: black;
+}
+
+.header-nav a {
+    color: black;
+}
+
+.header-nav li:hover {
+    background-color:lightslategrey;
+}

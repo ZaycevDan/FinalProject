@@ -1,0 +1,49 @@
+.ReportTheft {
+    padding-top: 50px;
+}
+
+.ReportTheft-title {
+    font-size: 30px;
+    font-weight: 700 bold;
+    text-align: center;
+ }
+
+ .ReportTheft-description {
+    font-size: 17px;
+    padding: 20px;
+    text-align: center;
+    line-height:normal;
+}
+
+.ReportTheft-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input,
+textarea
+ {
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid black;
+    width: 300px;
+}
+
+.choose_container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+select {
+    padding: 5px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.ReportTheft-form-choose {
+    padding: 10px;
+}

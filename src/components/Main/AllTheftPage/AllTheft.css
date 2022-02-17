@@ -1,0 +1,71 @@
+.allTheft_title {
+    font-size: 30px;
+    font-weight: 700 bold;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.theft_container {
+    border: 2px solid gray;
+    width: 350px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+.theft_delete {
+    border: 1px solid black;
+    padding: 2px 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.theft_link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 1px 5px 2.5px;
+}
+
+.Theft__list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    word-wrap: break-word;
+}
+
+.Theft__list_item {
+    padding-bottom: 40px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Theft__item_input {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.Theft__item_select_wrap {
+    display: flex;
+    width: 300px;
+    padding-bottom: 40px;
+}
+
+.Theft__item_select {
+    border-bottom: 1px solid black;
+    margin-top: -10px;
+    margin-right: 0;
+}
+
+.Theft__btn_edit {
+    padding: 5px 15px;
+    border: 1px solid black;
+    width: 300px;
+    cursor: pointer;
+}
